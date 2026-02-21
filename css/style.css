@@ -1,5 +1,24 @@
 body {
-    height: 100vh;
-    justify-items: center;
-    align-content: center;
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #ff6a6a, #00d2ff);
 }
+
+.container {
+  background: white; /* tidak transparan */
+  padding: 40px;
+  border-radius: 30px;
+
+  /* shadow modern */
+  box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+
+  width: 400px;
+  max-width: 90%;
+}
+

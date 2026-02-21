@@ -12,10 +12,12 @@
 </head>
 <body>
     <!-- Header Content -->
+     <div class="container">
     <header>
         <h1 class="text-3xl font-bold text-gray-800 text-center mb-6">Todo List</h1>
     </header>
     
+
     <!-- Main content -->
     <main>
         <section>
@@ -32,6 +34,7 @@
 </form>
 
     <!-- Add Button -->
+     <div class="flex gap-3">
     <button class="bg-indigo-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-indigo-600 transition" onclick="addTodo()" type="button">Add Todo</button>
 
 
@@ -47,7 +50,7 @@
 <button class="border rounded p-2 bg-blue-500 text-white" onclick="filterTodos()">Filter Todos</button>
 
 </section>
-
+</div>
 
 
 <section class="pt-2">
@@ -58,9 +61,7 @@
 
 </header>
 
-<ul class="pt-2" id="todo-list">
-
-
+<ul class="pt-2 border border-gray-300 rounded-lg p-4 bg-gray-50" id="todo-list">
 
 <li>No todos available</li>
 
@@ -69,11 +70,12 @@
     </main>
 
 <!-- Footer Content -->
-    <footer>
-        <p class="text-center text-gray-500 text-sm mt-4">2026 Todo List App. All rights reserved. <br>I love you from Syarif ♡</p>
+    <footer  class="bg-gray-800 text-white p-4 mt-6 rounded-t-lg shadow-md"
+>
+        <p class="text-center text-sm">2026 Todo List App. All rights reserved. <br>I love you from Syarif ♡</p>
 
     </footer>
-
+</div>
     <!-- Javascript External -->
     <script src="js/script.js"></script>
 </body>
